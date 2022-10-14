@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 422 183" width="422" height="183">
+	<title>Group 2</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 21px;line-height: 33px;fill: #3d3d3d;font-weight: 400;font-family: "Montserrat-Regular", "Montserrat" } 
+	</style>
+	<g id="Group 2">
+		<g id="Text">
+			<text id="Body Text" style="transform: matrix(1,0,0,1,-0.375,.562)" >
+				<tspan x="0" y="15.5" class="t0">Lorem ipsum dolor sit amet, consectetur </tspan>
+				<tspan x="0" y="48.8" class="t0">adipiscing elit, sed do eiusmod tempor    </tspan>
+				<tspan x="0" y="82.1" class="t0">incididunt ut labore et dolore magna </tspan>
+				<tspan x="0" y="115.5" class="t0">aliqua. Quis ipsum su spendisse ultrices </tspan>
+				<tspan x="0" y="148.8" class="t0">gravida. Risus commodo viverra maec  </tspan>
+				<tspan x="0" y="182.1" class="t0">enas accumsan lacus vel facilisis. 
+</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,26 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+body {
+  background-color: #fff;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-inner {
+  background: transparent;
+}
+
+.nav-item {
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+.banner-img {
+  background-image: url("assetsjpg/Header\ Background.png");
+  background-size: cover;
+  height: 90vh;
+}
