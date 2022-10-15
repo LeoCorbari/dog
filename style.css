@@ -102,7 +102,7 @@ body {
 .btn-default {
   font-size: 17px;
   font-weight: bold;
-  width: 165px;
+  width: fit-content;
   height: 54px;
   text-transform: uppercase;
   color: #fff;
@@ -130,4 +130,30 @@ body {
 
 .learn-about-section {
   background-color: #f0f1f1;
+}
+
+.right-food-section h4,
+.learn-about-section h4 {
+  font-weight: bold;
+  font-family: "Amatic SC", cursive;
+  color: #452a31;
+  font-size: 33px;
+}
+
+.right-food-section p,
+.learn-about-section p {
+  color: #3d3d3d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.form-control {
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  border-color: #808080;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
 }
