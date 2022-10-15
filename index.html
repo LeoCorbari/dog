@@ -10,16 +10,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
     <title>Company Name</title>
   </head>
@@ -53,24 +50,16 @@
         >
           <ul class="navbar-nav d-flex">
             <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Shop for dog</a
-              >
+              <a class="nav-link active" href="#">Shop for dog</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Shop for cat</a
-              >
+              <a class="nav-link active" href="#">Shop for cat</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Our story</a
-              >
+              <a class="nav-link active" href="#our-story">Our story</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Contact us</a
-              >
+              <a class="nav-link active" href="#">Contact us</a>
             </li>
           </ul>
         </div>
@@ -83,21 +72,143 @@
       <div
         class="banner-img w-100 d-flex justify-content-center align-items-center"
       >
-        <div class="container w-100 mx-0">
+        <div class="container-fluid mt-auto w-100 mx-0">
           <div class="row">
             <div class="col">
               <img
+                class="racao-img position-absolute"
                 src="assetsjpg/Place Your Design Here (Double Click to Edit) 6.png"
-                alt=""
-                class="img-fluid"
+                style="height: 472px; width: 523px"
               />
             </div>
-            <div class="col">
-              <img src="assetsjpg/img-2.png" alt="" class="img-fluid" />
+            <div class="col text-center">
+              <img
+                src="assetsjpg/img-2.png"
+                style="height: 428px; width: 566px"
+              />
             </div>
-            <div class="col">
-              <img src="assetsjpg/Dog Image 4.png" alt="" class="img-fluid" />
+            <div class="col p-0 d-flex justify-content-end align-self-end">
+              <img
+                src="assetsjpg/Dog Image 4.png"
+                style="height: 490px; width: 498px"
+              />
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Story Section-->
+
+    <section id="our-story" class="our-story section-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col p-0">
+            <img
+              src="assetsjpg/Vector Smart Object 3.png"
+              alt=""
+              class="position-absolute"
+            />
+            <div class="text-our-story">
+              <h2 class="d-block">Our</h2>
+              <h1 class="d-block">Story</h1>
+            </div>
+          </div>
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              dicta error, inventore, laborum deleniti totam corrupti quis alias
+              veritatis possimus aliquam quaerat modi vero atque tempore nam.
+              Ullam, laudantium? Odit labore quas est molestias ipsa dolorum?
+            </p>
+            <button type="button" class="btn-our-story">READ MORE</button>
+          </div>
+          <div class="col text-center">
+            <img
+              src="assetsjpg/Place Your Design Here (Double Click to Edit) 3.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Chicken Section-->
+
+    <section id="chicken-section" class="chicken-section">
+      <div class="container-fluid banner-chicken text-center">
+        <div class="row w-100">
+          <div class="col-md-6 offset-md-3 align-self-center">
+            <h4>Our No. 1 Ingredient:</h4>
+            <h3>Real Chicken & Egg</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              fugit eaque rem assumenda quae amet iste tenetur molestias aperiam
+              architecto.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--IntroDog Section-->
+
+    <section id="intro-dog-section" class="intro-dog-section section-padding">
+      <div class="container-fluid">
+        <div class="row px-4">
+          <div class="col">
+            <div class="intro-text mx-auto">
+              <h3>The perfect start to life</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                voluptate distinctio exercitationem placeat laborum dolores illo
+                eum quam aspernatur culpa vitae quo sed consequatur,
+                reprehenderit consequuntur laboriosam molestias dolorum libero!
+              </p>
+              <button class="btn-default">Learn More</button>
+            </div>
+          </div>
+          <div class="col text-center">
+            <img
+              src="assetsjpg/dog-right.png"
+              style="height: 424; width: 379px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--learn-about Section-->
+
+    <section
+      id="leanr-about-section"
+      class="learn-about-section section-padding"
+    >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h4>Learn more about dog breeds</h4>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <button type="button" class="btn-default">
+              View all dog breeds
+            </button>
+          </div>
+          <div class="col">
+            <img src="assetsjpg/Dog Image.png" class="position-absolute" />
+          </div>
+          <div class="col">
+            <h4>Thinking a getting a dog?</h4>
+            <p>There are many thingsyou need to know before getting a dog</p>
+            <button type="button" class="btn-default">Learn More</button>
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
-/*font-family: 'Montserrat', sans-serif;*/
-
 body {
   background-color: #fff;
+}
+
+.section-padding {
+  padding: 100px 0;
 }
 
 .navbar {
@@ -19,8 +21,113 @@ body {
   letter-spacing: 3px;
 }
 
+.banner-header .row {
+  height: 65vh;
+}
+
 .banner-img {
   background-image: url("assetsjpg/Header\ Background.png");
   background-size: cover;
   height: 90vh;
+}
+
+.racao-img {
+  bottom: 20px;
+}
+
+.text-our-story {
+  padding-left: 160px;
+}
+
+.our-story h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 42px;
+  color: #4b252e;
+}
+
+.our-story h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 100px;
+  color: #00a4d3;
+}
+
+.our-story p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+
+.btn-our-story {
+  border: none;
+  background-color: #ffff;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #00a4d3;
+  margin-top: 10px;
+}
+
+.banner-chicken {
+  background-image: url("assetsjpg/Chicken\ Image.png");
+  background-size: cover;
+}
+
+.chicken-section .row {
+  height: 349px;
+}
+
+.chicken-section h4 {
+  font-family: "Amatic SC", cursive;
+  font-size: 33px;
+  color: #fff;
+}
+.chicken-section h3 {
+  font-size: 63px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Amatic SC", cursive;
+}
+
+.chicken-section p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+
+.btn-default {
+  font-size: 17px;
+  font-weight: bold;
+  width: 165px;
+  height: 54px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: #00a4d3;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+
+.intro-text {
+  width: 70%;
+}
+
+.intro-text h3 {
+  font-size: 54px;
+  color: #4b252e;
+  font-weight: bold;
+  font-family: "Amatic SC", cursive;
+}
+
+.intro-text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+
+.learn-about-section {
+  background-color: #f0f1f1;
 }
