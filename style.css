@@ -14,6 +14,9 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+  width: 100%;
+  background: linear-gradient(0deg, #c8eafa, #c9ebfb);
+  position: inherit;
 }
 
 .navbar-inner {
@@ -27,7 +30,7 @@ body {
 
 .banner-img {
   background: linear-gradient(0deg, #2790c9, #c9ebfb);
-  height: 90vh;
+  height: 83vh;
 }
 
 .racao-img {
@@ -71,8 +74,12 @@ body {
   margin-top: 10px;
 }
 
+.btn-our-story:hover {
+  filter: brightness(0.9);
+}
+
 .banner-chicken {
-  background-image: url("assetsjpg/Chicken\ Image.png");
+  background-image: url("assets/Chicken\ Image.png");
   background-size: cover;
   background-position: bottom;
 
@@ -114,6 +121,10 @@ body {
   background-color: #00a4d3;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
+}
+
+.btn-default:hover {
+  filter: brightness(0.9);
 }
 
 .intro-text {
@@ -164,6 +175,28 @@ body {
   border-radius: 0;
 }
 
+.form-control:focus {
+  background-color: #f0f1f1;
+  border-color: #808080;
+  box-shadow: none;
+}
+
+.form-control:active {
+  background-color: #f0f1f1;
+  border-color: #808080;
+  box-shadow: none;
+}
+
+.search-input {
+  position: relative;
+}
+
+.bi {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+
 .footer-container {
   background-color: #efeff1;
   width: 90%;
@@ -198,16 +231,61 @@ body {
   color: #010101;
 }
 
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons-social-media {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.icons-social-media li {
+  margin: 0 10px;
+  background-color: #00a4d3;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-social-media li:hover {
+  filter: brightness(0.9);
+}
+
+.icons-social-media a {
+  color: #fff;
+}
+
 @media (max-width: 992px) {
   .navbar {
-    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 0 !important;
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .navbar > .container-fluid {
+    background-color: #fff;
   }
 
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #452a31;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    filter: brightness(0);
   }
 
   .banner-header .row {
@@ -279,5 +357,13 @@ body {
 
   .row-links {
     text-align: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
   }
 }
