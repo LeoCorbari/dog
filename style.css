@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: #fff;
 }
@@ -21,13 +25,8 @@ body {
   letter-spacing: 3px;
 }
 
-.banner-header .row {
-  height: 65vh;
-}
-
 .banner-img {
-  background-image: url("assetsjpg/Header\ Background.png");
-  background-size: cover;
+  background: linear-gradient(0deg, #2790c9, #c9ebfb);
   height: 90vh;
 }
 
@@ -74,6 +73,11 @@ body {
 
 .banner-chicken {
   background-image: url("assetsjpg/Chicken\ Image.png");
+  background-size: cover;
+  background-position: bottom;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -156,4 +160,124 @@ body {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
+  margin-bottom: 16px;
+  border-radius: 0;
+}
+
+.footer-container {
+  background-color: #efeff1;
+  width: 90%;
+}
+
+.dog-footer-img {
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-start;
+}
+
+.link-footer {
+  font-weight: bold;
+  font-size: 17px;
+  color: #452a31;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  color: #493439;
+}
+
+.link-footer:active {
+  color: #452a31;
+}
+
+.rights-company {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: #010101;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .show > .nav-link {
+    color: #452a31;
+  }
+
+  .banner-header .row {
+    margin-top: 30%;
+  }
+
+  .banner-header img {
+    width: 100%;
+  }
+
+  .banner-img {
+    height: 100%;
+  }
+
+  .racao-img {
+    position: inherit !important;
+  }
+
+  .dog-right {
+    width: 100%;
+    position: inherit !important;
+  }
+
+  .text-our-story {
+    padding: 0;
+  }
+
+  .our-story {
+    text-align: center;
+  }
+
+  .ration-img-sm {
+    margin-top: 15%;
+  }
+
+  .intro-dog-section .row {
+    padding: 0 !important;
+  }
+
+  .intro-dog-section button {
+    margin: 10px 0 100px 0;
+  }
+
+  .intro-dog-section img {
+    width: 100%;
+  }
+
+  .intro-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .learn-about-section img {
+    position: inherit !important;
+    margin: 50px 0 50px 0;
+  }
+
+  .right-food-section img {
+    margin-bottom: 50px;
+  }
+
+  .btn-default {
+    width: 100%;
+  }
+
+  .dog-footer-img {
+    order: 6 !important;
+  }
+
+  .row-links {
+    text-align: center;
+  }
 }

@@ -16,7 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Company Name</title>
   </head>
@@ -74,47 +78,49 @@
       >
         <div class="container-fluid mt-auto w-100 mx-0">
           <div class="row">
-            <div class="col">
+            <div class="col-lg-4 col-md-12 col-sm-12">
               <img
+                data-aos="fade-down"
                 class="racao-img position-absolute"
                 src="assetsjpg/Place Your Design Here (Double Click to Edit) 6.png"
-                style="height: 472px; width: 523px"
+                sm
               />
             </div>
-            <div class="col text-center">
-              <img
-                src="assetsjpg/img-2.png"
-                style="height: 428px; width: 566px"
-              />
+            <div
+              data-aos="fade-up"
+              class="col-lg-4 col-md-12 col-sm-12 text-center"
+            >
+              <img src="assetsjpg/img-2.png" class="w-100" />
             </div>
-            <div class="col p-0 d-flex justify-content-end align-self-end">
-              <img
-                src="assetsjpg/Dog Image 4.png"
-                style="height: 490px; width: 498px"
-              />
+
+            <div
+              data-aos="fade-up-left"
+              class="col-lg-4 col-md-12 col-sm-12 p-0 d-flex justify-content-end align-self-end"
+            >
+              <img src="assetsjpg/Dog Image 4.png" class="w-100" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!--Our Story Section-->
+    <!-- Our story Section -->
 
     <section id="our-story" class="our-story section-padding">
       <div class="container-fluid">
         <div class="row">
-          <div class="col p-0">
+          <div data-aos="fade-right" class="col-lg-4 col-md-12 col-sm-12 p-0">
             <img
               src="assetsjpg/Vector Smart Object 3.png"
               alt=""
-              class="position-absolute"
+              class="dog-right position-absolute"
             />
             <div class="text-our-story">
               <h2 class="d-block">Our</h2>
               <h1 class="d-block">Story</h1>
             </div>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-md-12 col-sm-12">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
               dicta error, inventore, laborum deleniti totam corrupti quis alias
@@ -123,7 +129,10 @@
             </p>
             <button type="button" class="btn-our-story">READ MORE</button>
           </div>
-          <div class="col text-center">
+          <div
+            data-aos="fade"
+            class="col-lg-4 col-md-12 col-sm-12 text-center ration-img-sm"
+          >
             <img
               src="assetsjpg/Place Your Design Here (Double Click to Edit) 3.png"
             />
@@ -132,12 +141,12 @@
       </div>
     </section>
 
-    <!--Chicken Section-->
-
     <section id="chicken-section" class="chicken-section">
       <div class="container-fluid banner-chicken text-center">
-        <div class="row w-100">
-          <div class="col-md-6 offset-md-3 align-self-center">
+        <div class="row">
+          <div
+            class="col-lg-lg-5 col-md-6 col-ssm12 offset-md-3 align-self-center"
+          >
             <h4>Our No. 1 Ingredient:</h4>
             <h3>Real Chicken & Egg</h3>
             <p>
@@ -150,12 +159,10 @@
       </div>
     </section>
 
-    <!--IntroDog Section-->
-
     <section id="intro-dog-section" class="intro-dog-section section-padding">
       <div class="container-fluid">
         <div class="row px-4">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="intro-text mx-auto">
               <h3>The perfect start to life</h3>
               <p>
@@ -167,17 +174,12 @@
               <button class="btn-default">Learn More</button>
             </div>
           </div>
-          <div class="col-lg-6 text-center">
-            <img
-              src="assetsjpg/dog-right.png"
-              style="height: 424; width: 379px"
-            />
+          <div data-aos="fade" class="col-lg-6 col-md-12 col-sm-12 text-center">
+            <img src="assetsjpg/dog-right.png" />
           </div>
         </div>
       </div>
     </section>
-
-    <!--learn-about Section-->
 
     <section
       id="learn-about-section"
@@ -185,7 +187,9 @@
     >
       <div class="container-fluid">
         <div class="row offset-md-2">
-          <div class="col-md-3 d-flex flex-column justify-content-between">
+          <div
+            class="col-lg-3 col-md-12 col-sm-12 d-flex flex-column justify-content-between text-learn-about"
+          >
             <h4>Learn more about dog breeds</h4>
             <form role="search">
               <input
@@ -194,17 +198,21 @@
                 placeholder="Search breeds"
                 aria-label="Search"
               />
+              <i class="bi bi-search"></i>
             </form>
             <button type="button" class="btn-default">
               View all dog breeds
             </button>
           </div>
           <div
-            class="col-md-3 position-relative d-flex flex-column justify-content-center align-items-center"
+            data-aos="fade-up"
+            class="col-lg-4 col-md-12 col-sm-12 position-relative d-flex flex-column justify-content-center align-items-center"
           >
             <img src="assetsjpg/Dog Image.png" class="position-absolute" />
           </div>
-          <div class="col-md-3 d-flex flex-column justify-content-between">
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column justify-content-between"
+          >
             <h4>Thinking a getting a dog?</h4>
             <p>There are many thingsyou need to know before getting a dog</p>
             <button type="button" class="btn-default">Learn More</button>
@@ -213,60 +221,64 @@
       </div>
     </section>
 
-    <!--right-food Section-->
-
     <section id="right-food-section" class="right-food-section section-padding">
-      <div class="row">
-        <div class="col text-center">
-          <img
-            src="assetsjpg/Place Your Design Here (Double Click to Edit) 4.png"
-            style="height: 322px; width: 357px"
-          />
-        </div>
-        <div class="col">
-          <h4>Find the right food for your dog</h4>
-          <p>
-            Each formula has been created to deliver nutrition tailored to your
-            <br />
-            dog's health needs whatever their size, age, or lifestyle.
-          </p>
-          <button type="button" class="btn-default">View all products</button>
+      <div class="container-fluid">
+        <div class="row offset-lg-2">
+          <div data-aos="fade" class="col-lg-5 col-md-12 col-sm-12 text-center">
+            <img
+              src="assetsjpg/Place Your Design Here (Double Click to Edit) 4.png"
+            />
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <h4>Find the right food for your dog</h4>
+            <p>
+              Each formula has been created to deliver nutrition tailored to
+              your dog's health needs whatever their size, age, or lifestyle.
+            </p>
+            <button type="button" class="btn-default">View all products</button>
+          </div>
         </div>
       </div>
     </section>
 
-    <!--footer Section-->
-
-    <footer>
-      <div class="container footer-container">
-        <div class="col-6 col-md-12 col-lg-12">
-          <img src="" alt="" />
-        </div>
-        <div class="col-4 col-md-12 col-lg-12">
-          <div class="row">
-            <img src="" alt="" />
+    <footer class="section pb-5">
+      <div class="container-fluid footer-container pt-3">
+        <div class="row row-footer">
+          <div class="col-lg-5 col-md-12 col-sm-12 p-0 dog-footer-img">
+            <img src="assetsjpg/dog-footer.png" alt="" class="w-100" />
           </div>
-          <div class="row">
-            <div class="row">
-              <div class="col-8">
-                <p>Shop for dog</p>
-              </div>
-              <div class="col-4">
-                <p>Shop for cat</p>
-              </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div data-aos="fade-right" class="row">
+              <img src="assetsjpg/logo-footer.png" alt="" />
             </div>
-            <div class="row">
-              <div class="col-4">
-                <p>Our story</p>
+            <div class="row row-links">
+              <div class="row h-100 mt-2">
+                <div class="col-lg-6 col-md-12 col-sm-12 link-footer">
+                  <a class="link-footer" href="#">Shop for dog</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 link-footer">
+                  <a class="link-footer" href="#">Shop for cat</a>
+                </div>
               </div>
-              <div class="col-8">
-                <p>Contact us</p>
+              <div class="row mb-3">
+                <div class="col-lg-5 col-md-12 col-sm-12 link-footer">
+                  <a class="link-footer" href="#">Our story</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 link-footer">
+                  <a class="link-footer" href="#">Contact us</a>
+                </div>
               </div>
+              <p class="rights-company text-center">
+                © Company Name 2020. All rights reserved.
+              </p>
             </div>
-            <p>Company Name 2020. All rights reserved.</p>
+          </div>
+          <div
+            class="col-lg-3 col-md-12 col-sm-12 text-center align-self-end mb-3"
+          >
+            Icons social media
           </div>
         </div>
-        <div class="col-2 col-md-12 col-lg-12">Icons social media</div>
       </div>
     </footer>
 
@@ -277,5 +289,13 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="script.js"></script>
   </body>
 </html>
